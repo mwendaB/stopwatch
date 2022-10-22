@@ -1,0 +1,41 @@
+<!-- Copyright 2013 SonarSource SA -->
+
+<!DOCTYPE html>
+<html lang="en" xml:lang="en">
+ <head>
+        <title>Stop Watch</title>
+        <meta content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="style.css">
+       
+    </head>  
+
+
+<body>
+    
+
+    <section id="heading_container">
+        <img src="image/skillreactor.png" alt="" id="skillreactor_logo">
+
+        <div id="heading">
+            Skillreactor Stopwatch
+        </div>
+    </section>
+    <section id="stopwatch_container">
+        <section id="seconds">00</section>
+        
+
+       <div id="milli_seconds"> 000</div>
+
+       <ul id="buttons">
+
+      <li><button onclick="startTimer()" id="start_button">Start</button>    </li> 
+
+      <li><button onclick="stopTimer()" id="stop_button">Stop</button> </li> 
+
+      <li>  <button onclick="resetTimer()" id="reset_button">Reset</button> </li> 
+    </ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
